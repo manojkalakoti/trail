@@ -1,0 +1,1 @@
+properties([[$class: 'BuildConfigProjectProperty', name: '', namespace: '', resourceVersion: '', uid: ''], [$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/manojkalakoti/pipeline.git/'], pipelineTriggers([githubPush()])])
