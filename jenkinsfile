@@ -1,1 +1,22 @@
 properties([[$class: 'BuildConfigProjectProperty', name: '', namespace: '', resourceVersion: '', uid: ''], [$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/manojkalakoti/pipeline.git/'], pipelineTriggers([githubPush()])])
+pipeline {
+    agent any 
+
+    stages {
+        stage('Build') { 
+            steps { 
+                sh 'pwd' 
+            }
+        }
+        stage('Test'){
+            steps {
+                sh 'pwd'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh 'pwd'
+            }
+        }
+    }
+}
